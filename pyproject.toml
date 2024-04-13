@@ -1,0 +1,29 @@
+[project]
+name = "listvideo"
+version = "0.0.1"
+dependencies = [
+  "flask",
+  "flask_cors",
+  "pytube",
+  "cachetools",
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Francisco Griman", email = "grihardware@gmail.com"}
+]
+description = "ListVideo es una biblioteca que facilita la interacción con las listas de reproducción de YouTube. Permite acceder a los metadatos de los videos y organizarlos de manera eficiente."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+  "youtube",
+  "playlist",
+  "video",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/fcoagz/listvideo"
+"Bug Tracker" = "https://github.com/fcoagz/listvideo/issues"
